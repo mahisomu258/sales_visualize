@@ -17,7 +17,7 @@ Dataset
 
 The dataset used in this project contains sales data. It includes various fields such as:
 
-User_ID,Cust_name,Product_ID,Gender,Age_Group,Age,Marital_Status,State,Zone,Occupation,Product_Category,Orders,Amount,Status,unnamed1         
+User_ID,Cust_name,Product_ID,Gender,Age_Group,Age,Marital_Status,State,Zone,Occupation,Product_Category,Orders,Amount,Status, unnamed1         
 
 Analysis Steps:
 
