@@ -1,138 +1,110 @@
-# Diwali Sales Data Analysis Project
+# Sales Visualize Project
 
-## Project Overview
+## Overview
 
-This project is aimed at beginners in Python and data analysis. The goal is to analyze Diwali sales data to uncover insights that can help improve customer experience and increase sales. By the end of this project, you will have hands-on experience with data cleaning, exploration, visualization, and basic statistical analysis using Python.
-
-## Table of Contents
-
-1. [Project Structure](#project-structure)
-2. [Requirements](#requirements)
-3. [Installation](#installation)
-4. [Dataset](#dataset)
-5. [Usage](#usage)
-6. [Analysis Steps](#analysis-steps)
-7. [Conclusion](#conclusion)
-8. [Contributing](#contributing)
-9. [License](#license)
-
-## Project Structure
-
-```
-Diwali_Sales_Analysis/
-├── data/
-│   └── diwali_sales_data.csv
-├── notebooks/
-│   ├── 01_data_cleaning.ipynb
-│   ├── 02_data_exploration.ipynb
-│   ├── 03_data_visualization.ipynb
-│   └── 04_statistical_analysis.ipynb
-├── src/
-│   ├── data_cleaning.py
-│   ├── data_exploration.py
-│   ├── data_visualization.py
-│   └── statistical_analysis.py
-├── README.md
-└── requirements.txt
-```
+This project is designed to analyze sales data to improve customer experience and increase sales. The goal is to explore, analyze, and visualize the sales data to gain insights and make data-driven decisions.
 
 ## Requirements
 
-- Python 3.x
+To run this project, you'll need the following:
+
+- Python 3.7 or higher
 - Jupyter Notebook
-- pandas
-- numpy
-- matplotlib
-- seaborn
-- scikit-learn
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+
+## Dataset
+
+The dataset used in this project contains sales data with the following fields:
+
+- User_ID
+- Cust_name
+- Product_ID
+- Gender
+- Age_Group
+- Age
+- Marital_Status
+- State
+- Zone
+- Occupation
+- Product_Category
+- Orders
+- Amount
+- Status
+- unnamed1
+
+## Analysis Steps
+
+1. **Data Cleaning**
+2. **Data Exploration**
+3. **Data Visualization**
+4. **Statistical Analysis**
+
+## Conclusion
+
+Married women aged 26-35 years from UP, Maharashtra, and Karnataka working in IT, Healthcare, and Aviation are more likely to buy products from Food, Clothing, and Electronics categories.
+
+---
+
+To get started with the project, clone the repository and follow the instructions below to set up your environment and run the analysis.
 
 ## Installation
 
 1. Clone the repository:
 
-   ```sh
-   git clone https://github.com/yourusername/Diwali_Sales_Analysis.git
-   cd Diwali_Sales_Analysis
+   ```bash
+   git clone <repository-url>
    ```
 
-2. Create a virtual environment and activate it:
+2. Change into the project directory:
 
-   ```sh
-   python -m venv venv
-   source venv/bin/activate   # On Windows, use `venv\Scripts\activate`
+   ```bash
+   cd sales_visualize
    ```
 
-3. Install the required packages:
+3. Create a virtual environment:
 
-   ```sh
+   ```bash
+   python3 -m venv env
+   ```
+
+4. Activate the virtual environment:
+
+   - On Windows:
+
+     ```bash
+     .\env\Scripts\activate
+     ```
+
+   - On macOS and Linux:
+
+     ```bash
+     source env/bin/activate
+     ```
+
+5. Install the required packages:
+
+   ```bash
    pip install -r requirements.txt
    ```
 
-## Dataset
-
-The dataset used in this project contains sales data during the Diwali season. It includes various fields such as:
-
-- Customer ID
-- Product Category
-- Gender
-- Age
-- Purchase Amount
-- Marital Status
-- City Category
-- Stay in Current City
-- ...and more
-
-Ensure the dataset file (`diwali_sales_data.csv`) is placed in the `data/` directory.
-
 ## Usage
 
-1. Open Jupyter Notebook:
+1. Launch Jupyter Notebook:
 
-   ```sh
+   ```bash
    jupyter notebook
    ```
 
-2. Navigate to the `notebooks/` directory and start with `01_data_cleaning.ipynb`.
+2. Open the `sales_visualize.ipynb` notebook and follow the steps to perform data cleaning, exploration, visualization, and statistical analysis.
 
-3. Follow the sequence of notebooks to perform data cleaning, exploration, visualization, and analysis.
+## Notes
 
-## Analysis Steps
+- Ensure your dataset is in the correct format and located in the appropriate directory.
+- Modify the notebook as needed to fit your specific dataset and analysis goals.
 
-### 1. Data Cleaning
+## Acknowledgments
 
-- Handle missing values
-- Remove duplicates
-- Format and normalize data
-
-### 2. Data Exploration
-
-- Understand the structure and contents of the data
-- Generate summary statistics
-- Identify patterns and trends
-
-### 3. Data Visualization
-
-- Create visual representations of data (bar plots, histograms, scatter plots, etc.)
-- Use visualization to communicate findings effectively
-
-### 4. Statistical Analysis
-
-- Perform basic statistical tests
-- Analyze relationships between variables
-- Draw actionable insights
-
-## Conclusion
-
-Summarize your findings from the analysis and provide recommendations for improving customer experience and increasing sales during the Diwali season.
-
-## Contributing
-
-Contributions are welcome! Please create a fork of the repository, make your changes, and submit a pull request. For major changes, please open an issue first to discuss what you would like to change.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
----
-
-Happy analyzing and have a wonderful learning experience!
+This project was developed to analyze sales data and provide actionable insights for improving customer experience and increasing sales.
