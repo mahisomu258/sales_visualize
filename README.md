@@ -5,12 +5,12 @@ The goal is to explore, analyze, and visualize the sales data to gain insights a
 
 Requirements for this project:
 
-Python 3.7 or higher
-Jupyter Notebook
-Pandas
-NumPy
-Matplotlib
-Seaborn
+Python 3.7 or higher          
+Jupyter Notebook       
+Pandas           
+NumPy           
+Matplotlib       
+Seaborn          
 
 
 Dataset
